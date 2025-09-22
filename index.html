@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>محمد النابهي - الموقع الشخصي</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>محمد النابهي</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">عني</a></li>
+          <li><a href="#skills">المهارات</a></li>
+          <li><a href="#contact">تواصل</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+<section id="about" class="section">
+  <div class="container about-container" style="display: flex; align-items: center; gap: 20px;">
+    <img src="main.jpg" alt="صورة" style="width:150px; height:150px; border-radius: 50%; object-fit: cover; border: 3px solid #0077cc;">
+    <div>
+      <h2>من أنا؟</h2>
+      <p>أنا محمد عبدالرحمن قاسم النابهي، طالب أمن سيبراني، مبرمج ومصمم تطبيقات ومواقع، ومهتم باكتشاف الثغرات وتحليل الشبكات والتعامل مع قواعد البيانات.</p>
+    </div>
+  </div>
+</section>
+
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>مهاراتي</h2>
+        <div class="skills-grid">
+          <div class="skill-card"><h3>Flutter</h3><p>تصميم تطبيقات باستخدام فلاتر ودارت</p></div>
+          <div class="skill-card"><h3>قواعد البيانات</h3><p>ربط وتخزين وفرز وتشفير قواعد البيانات</p></div>
+          <div class="skill-card"><h3>HTML & CSS</h3><p>تصميم مواقع جذابة ومتجاوبة</p></div>
+          <div class="skill-card"><h3>تحليل ثغرات ويب</h3><p>تحليل واستغلال ثغرات المواقع</p></div>
+          <div class="skill-card"><h3>Python</h3><p>تحليل وبرمجة باستخدام بايثون</p></div>
+          <div class="skill-card"><h3>الشبكات</h3><p>إدارة تأمين وحماية الشبكات</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>تواصل معي</h2>
+        <form>
+          <label for="name">الاسم</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">البريد الإلكتروني</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">رسالتك</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">إرسال</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 محمد النابهي. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+</body>
+</html>
